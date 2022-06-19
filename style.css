@@ -1,0 +1,108 @@
+:root {
+    font-size: 14px !important;
+
+    --color-primary: #C39F41;
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Ibarra Real Nova', serif;
+
+    font-family: var(--font-primary)!important;
+}
+
+body{
+    font-family: var(--font-primary)!important;   
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+}
+
+.navbar-custom{
+    background-color: transparent;
+    height: 7.5rem;
+}
+
+.button{
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+
+}
+
+.navbar .button{
+    border-color: var(--color-white);
+    color: var(--color-white);
+    padding: 0.563rem 1.438rem!important;
+}
+
+.nav-link{
+    color: var(--color-white)!important;
+    padding: 0 .938rem!important;
+    font-size: 1.063rem!important;
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.banner-container{
+    background-image: url("./imagens/banner.jpg");
+    color: var(--color-white)!important;
+}
+
+.banner {
+    padding: 11.813rem 0;
+}
+
+.rotation {
+    writing-mode: vertical-rl;
+    margin: 0;
+    font-family: var(--font-primary);
+    font-weight: 200;
+}
+
+.banner-container .title {
+    font-size: 2.5rem;
+    justify-self: center;
+    margin-top: 10rem;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+}
+
+.banner-intro {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid var(--color-white);
+    padding-bottom: 1.875rem;
+}
+
+@media (min-width: 768px) {
+    .banner-container .title {
+        font-size: 5rem;
+    }
+    .banner-intro {
+        width: 30%!important;
+        text-align: start;
+    }
+};
+
+@media (min-width: 1400px) {
+    .banner-container .title {
+        font-size: 9.813rem!important;
+    }
+};
+
+
